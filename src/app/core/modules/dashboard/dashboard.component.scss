@@ -1,0 +1,33 @@
+.dashboard {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+  &-container {
+    flex: 1 auto;
+    background-color: white;
+    overflow-x: hidden;
+  }
+
+  &-login {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .main {
+    &-page {
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+    }
+
+    &-container {
+      width: auto;
+      flex: 1 auto;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 1s;
+    }
+  }
+}
